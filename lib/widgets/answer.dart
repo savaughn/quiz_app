@@ -20,9 +20,9 @@ class Answer extends StatelessWidget {
                 child: Text(
                   stripHtml(label),
                   style: TextStyle(
-                    fontSize: 28,
-                    fontWeight: FontWeight.w600,
+                    fontSize: 36,
                     color: Colors.blue[50],
+                    fontWeight: FontWeight.w100,
                   ),
                 ),
                 onPressed: () => onSelect(label, isCorrect),

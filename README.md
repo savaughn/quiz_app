@@ -2,6 +2,4 @@
 
 Multiple Choice Trivia via opentdb api
 
-## Getting Started
-
-flutter run
+![demo](assets/TriviaApp.gif)

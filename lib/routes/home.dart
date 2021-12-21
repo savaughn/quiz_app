@@ -11,7 +11,7 @@ class _HomeState extends State<Home> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Quizr'),
+          title: Text('Daily Trivia'),
         ),
         body: Container(
           child: Center(
@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
               elevation: 3,
               // padding: const EdgeInsets.all(5),
               child: Text(
-                'Daily Quiz',
+                'Daily Trivia',
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.w600,

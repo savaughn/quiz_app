@@ -72,7 +72,7 @@ class _QuizState extends State<Quiz> {
           child: Container(
             alignment: Alignment.center,
             child: Text(
-              'Quiz Complete\n\n$score correct!',
+              'Trivia Complete\n\n$score correct!',
               style: GoogleFonts.londrinaSolid(
                 color: Colors.white,
                 fontSize: 48,
@@ -93,7 +93,7 @@ class _QuizState extends State<Quiz> {
                   elevation: 3,
                   // padding: const EdgeInsets.all(5),
                   child: Text(
-                    'Restart Quiz',
+                    'Restart Trivia',
                     style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.w600,
@@ -115,7 +115,7 @@ class _QuizState extends State<Quiz> {
                   elevation: 3,
                   // padding: const EdgeInsets.all(5),
                   child: Text(
-                    'New Quiz',
+                    'New Trivia',
                     style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.w600,
@@ -148,7 +148,7 @@ class _QuizState extends State<Quiz> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Daily Quiz'),
+        title: Text('Daily Trivia'),
       ),
       body: Container(
           color: Colors.blueGrey,

@@ -19,8 +19,9 @@ class Question extends StatelessWidget {
           child: Text(
             stripHtml(questionText),
             style: TextStyle(
-              fontSize: 18,
+              fontSize: 32,
               color: Colors.white,
+              fontWeight: FontWeight.w100,
             ),
             textAlign: TextAlign.center,
           ),
